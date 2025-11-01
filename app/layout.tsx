@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata:Metadata = {
-  title: 'Infocard',
+  title: 'Ananya Infocard',
   description: 'Interactive portfolio card by Ananya V Hegde',
   icons: {
     icon: '/icon.svg',
