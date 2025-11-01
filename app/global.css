@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+:root {
+  /* Blue theme based on #0a9fd6 */
+  --page-bg: #e6f8ff; /* very light blue page background */
+  --card: #0a9fd6; /* primary card color (base blue) */
+  --card-grad-end: #078fbf; /* gradient end / darker blue */
+  --card-outline: #066c92; /* outline/darker accent */
+  --cardback: #3fbfe8; /* lighter/back card tone */
+
+  --text-primary: white; /* dark blue text */
+  --text-primary-one: white;
+  --text-secondary: #274b5a; /* secondary text */
+  --font-mono: "IBM Plex Mono", monospace;
+  --background: var(--page-bg);
+  --foreground: #072633;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+@theme {
+  --color-background: var(--page-bg);
+  --color-card: var(--card);
+  --color-card-outline: var(--card-outline);
+  --color-card-grad-end: var(--card-grad-end);
+  --color-cardback: var(--cardback);
+  --color-text-primary: var(--text-primary);
+  --color-text-secondary: var(--text-secondary);
+  --font-mono: var(--font-mono);
+  --background: var(--page-bg);
+  --foreground: var(--foreground);
+
+}
+
+
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family:Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
