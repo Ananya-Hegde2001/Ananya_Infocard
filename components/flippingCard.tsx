@@ -135,7 +135,7 @@ export const FlippingCard = () => {
                                     <LogoBack/> 
                                 </CardLogo>
                                 <Link
-                                    href="https://app.cal.com/ananya-hegde"
+                                    href="https://app.cal.com/ananyahegde"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     onClick={(e) => e.stopPropagation()} 
