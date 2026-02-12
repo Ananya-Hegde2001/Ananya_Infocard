@@ -91,11 +91,11 @@ export const FlippingCard = () => {
                                     <div className='flex justify-between items-end font-mono tracking-wide text-sm mt-4 max-sm:text-xs max-sm:mt-2'>
                                         <CardDescription className='tracking-tight'>
                                             <p className='text-text-primary'>Ananya V Hegde</p>
-                                            <p className='text-gray-800'>I am a <span className='text-text-primary'>Front End Engineer</span></p>
+                                            <p className='text-gray-800'>I am a <span className='text-text-primary'>Software Engineer</span></p>
                                             <p className='text-gray-800'>
                                                 Working on{' '}
                                                 <Link
-                                                    href="https://www.linkedin.com/in/ananyahegde-"  
+                                                    href="https://github.com/Ananya-Hegde2001"  
                                                     target="_blank"
                                                     rel="noopener noreferrer"
                                                     onClick={(e) => e.stopPropagation()}
